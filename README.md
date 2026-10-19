@@ -25,8 +25,8 @@
 
   <br/><br/>
 
-  <!-- ==================== LIVE ACTIVITY HEATMAP ==================== -->
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=andersvantese&amp;theme=react-dark&amp;bg_color=080C14&amp;color=00D2FF&amp;line=38BDF8&amp;point=8B5CF6&amp;area=true&amp;hide_border=true" alt="Anders Vantese Live GitHub Contribution Heatmap" width="100%" />
+  <!-- ==================== CONTRIBUTION ACTIVITY HEATMAP ==================== -->
+  <img src="assets/contribution_activity.svg" alt="Anders Vantese Contribution Activity Heatmap" width="100%" />
 
   <br/><br/>
 
@@ -44,6 +44,12 @@
 ### 🏛️ The Anders Vantese Ecosystem Architecture
 
 > *A consolidated portfolio of in-house enterprise engines, quantitative frameworks, and clinical ecosystems engineered with 100% Clean-Room precision and zero external code contamination.*
+
+<div align="center">
+  <code>🔒 Proprietary In-House IP • Private Enterprise Repositories • Ghost Protocol Enforced</code>
+</div>
+
+<br/>
 
 ```
 anders-vantese-ecosystem/
