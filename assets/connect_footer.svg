@@ -1,0 +1,40 @@
+<svg width="880" height="110" viewBox="0 0 880 110" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="footer-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#080C14"/>
+      <stop offset="100%" stop-color="#0A101D"/>
+    </linearGradient>
+    <linearGradient id="footer-border" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#1E293B"/>
+      <stop offset="50%" stop-color="#00D2FF" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#1E293B"/>
+    </linearGradient>
+    <linearGradient id="btn-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0284C7"/>
+      <stop offset="100%" stop-color="#2563EB"/>
+    </linearGradient>
+  </defs>
+
+  <style>
+    .font-mono { font-family: 'JetBrains Mono', 'Fira Code', monospace; }
+    .font-sans { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; }
+  </style>
+
+  <!-- Container Box -->
+  <rect x="2" y="2" width="876" height="106" rx="16" fill="url(#footer-bg)" stroke="url(#footer-border)" stroke-width="1.2"/>
+
+  <!-- Left Side: Status & Security -->
+  <g transform="translate(24, 28)">
+    <g transform="translate(0, 0)">
+      <circle cx="6" cy="10" r="4" fill="#10B981"/>
+      <text x="18" y="14" fill="#F8FAFC" class="font-sans" font-size="14" font-weight="700">Transmission &amp; Cryptographic Verification</text>
+    </g>
+    <text x="0" y="44" fill="#64748B" class="font-mono" font-size="11">PROTECTED UNDER GHOST PROTOCOL • ZERO UNSOLICITED EXPOSURE • UUHC 28/2014</text>
+  </g>
+
+  <!-- Right Side: Contact Button -->
+  <g transform="translate(560, 32)">
+    <rect width="295" height="46" rx="10" fill="url(#btn-grad)" stroke="#38BDF8" stroke-width="1"/>
+    <text x="24" y="28" fill="#FFFFFF" class="font-sans" font-size="12.5" font-weight="600">✉️ anders.vantese@gmail.com</text>
+  </g>
+</svg>

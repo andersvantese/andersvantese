@@ -1,0 +1,199 @@
+<svg width="880" height="540" viewBox="0 0 880 540" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="grid-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#070A12"/>
+      <stop offset="100%" stop-color="#0B111F"/>
+    </linearGradient>
+    <linearGradient id="grid-border" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#1E293B"/>
+      <stop offset="50%" stop-color="#38BDF8" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#8B5CF6" stop-opacity="0.3"/>
+    </linearGradient>
+
+    <!-- Gauge Gradients -->
+    <linearGradient id="gauge-cyan" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00D2FF"/>
+      <stop offset="100%" stop-color="#3B82F6"/>
+    </linearGradient>
+    <linearGradient id="gauge-emerald" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#10B981"/>
+      <stop offset="100%" stop-color="#059669"/>
+    </linearGradient>
+    <linearGradient id="gauge-violet" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#A855F7"/>
+      <stop offset="100%" stop-color="#6366F1"/>
+    </linearGradient>
+    <linearGradient id="gauge-amber" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F59E0B"/>
+      <stop offset="100%" stop-color="#D97706"/>
+    </linearGradient>
+  </defs>
+
+  <style>
+    .font-mono { font-family: 'JetBrains Mono', 'Fira Code', monospace; }
+    .font-sans { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; }
+    .card-title { font-weight: 700; font-size: 15px; fill: #F8FAFC; }
+    .card-desc { font-size: 11.5px; fill: #94A3B8; line-height: 1.4; }
+    .tag-badge { font-size: 10px; font-weight: 600; letter-spacing: 0.5px; }
+  </style>
+
+  <!-- Container Box -->
+  <rect x="2" y="2" width="876" height="536" rx="16" fill="url(#grid-bg)" stroke="url(#grid-border)" stroke-width="1.2"/>
+
+  <!-- Header Bar -->
+  <g transform="translate(24, 20)">
+    <text x="0" y="16" fill="#F8FAFC" class="font-sans" font-size="16" font-weight="700">Repositories &amp; Systems Worth Exploring</text>
+    <text x="320" y="16" fill="#64748B" class="font-sans" font-size="12">100% In-House Clean-Room Craft</text>
+
+    <!-- Shell Prompt Pill -->
+    <g transform="translate(670, 2)">
+      <rect width="150" height="20" rx="10" fill="#0E1726" stroke="#1E293B" stroke-width="1"/>
+      <text x="12" y="14" fill="#38BDF8" class="font-mono" font-size="11">./projects.sh --all</text>
+    </g>
+  </g>
+
+  <!-- 2x3 Project Cards Grid (2 columns, 3 rows) -->
+  <g transform="translate(24, 56)">
+    <!-- ================= ROW 1 ================= -->
+
+    <!-- Card 1: Trading Screener -->
+    <g transform="translate(0, 0)">
+      <rect width="404" height="142" rx="12" fill="#090E1A" stroke="#1E293B" stroke-width="1"/>
+      <!-- Header / Badge -->
+      <g transform="translate(16, 16)">
+        <rect width="90" height="20" rx="6" fill="#0C4A6E" fill-opacity="0.6"/>
+        <text x="8" y="14" fill="#38BDF8" class="font-mono tag-badge">FINTECH / QUANT</text>
+        <text x="300" y="14" fill="#10B981" class="font-mono" font-size="10.5">● Active Dev</text>
+      </g>
+      <!-- Title -->
+      <text x="16" y="58" class="font-sans card-title">Trading Screener</text>
+      <!-- Description -->
+      <text x="16" y="76" class="font-sans card-desc">Astronacci Quantitative Confluence Scanner Engine.</text>
+      <text x="16" y="92" class="font-sans card-desc">Dynamic MA 21/34, Stoch 5,3,3, and real-time triggers.</text>
+      <!-- Bottom Meta -->
+      <g transform="translate(16, 120)">
+        <text x="0" y="0" fill="#38BDF8" class="font-mono" font-size="10.5">React • Node.js • WebSocket</text>
+      </g>
+      <!-- Circular Gauge Ring (99%) -->
+      <g transform="translate(348, 70)">
+        <circle cx="20" cy="20" r="18" fill="none" stroke="#1E293B" stroke-width="3"/>
+        <circle cx="20" cy="20" r="18" fill="none" stroke="url(#gauge-cyan)" stroke-width="3" stroke-dasharray="113" stroke-dashoffset="6" stroke-linecap="round" transform="rotate(-90 20 20)"/>
+        <text x="20" y="24" fill="#F8FAFC" class="font-mono" font-size="9.5" font-weight="700" text-anchor="middle">99%</text>
+      </g>
+    </g>
+
+    <!-- Card 2: Vantese-EMR & OmniSalus -->
+    <g transform="translate(424, 0)">
+      <rect width="404" height="142" rx="12" fill="#090E1A" stroke="#1E293B" stroke-width="1"/>
+      <g transform="translate(16, 16)">
+        <rect width="84" height="20" rx="6" fill="#064E3B" fill-opacity="0.6"/>
+        <text x="8" y="14" fill="#34D399" class="font-mono tag-badge">HEALTHTECH</text>
+        <text x="300" y="14" fill="#10B981" class="font-mono" font-size="10.5">● Certified</text>
+      </g>
+      <text x="16" y="58" class="font-sans card-title">Vantese-EMR &amp; OmniSalus</text>
+      <text x="16" y="76" class="font-sans card-desc">Electronic Medical Records &amp; Clinical Consilium.</text>
+      <text x="16" y="92" class="font-sans card-desc">Kemenkes SATUSEHAT FHIR R4 &amp; PMK 168/2023 Doctor Tax.</text>
+      <g transform="translate(16, 120)">
+        <text x="0" y="0" fill="#34D399" class="font-mono" font-size="10.5">FHIR R4 • Node.js • Firestore</text>
+      </g>
+      <!-- Circular Gauge Ring (100%) -->
+      <g transform="translate(348, 70)">
+        <circle cx="20" cy="20" r="18" fill="none" stroke="#1E293B" stroke-width="3"/>
+        <circle cx="20" cy="20" r="18" fill="none" stroke="url(#gauge-emerald)" stroke-width="3" stroke-dasharray="113" stroke-dashoffset="0" stroke-linecap="round" transform="rotate(-90 20 20)"/>
+        <text x="20" y="24" fill="#F8FAFC" class="font-mono" font-size="9" font-weight="700" text-anchor="middle">R4</text>
+      </g>
+    </g>
+
+    <!-- ================= ROW 2 ================= -->
+
+    <!-- Card 3: Vantese Custos -->
+    <g transform="translate(0, 156)">
+      <rect width="404" height="142" rx="12" fill="#090E1A" stroke="#1E293B" stroke-width="1"/>
+      <g transform="translate(16, 16)">
+        <rect width="84" height="20" rx="6" fill="#4C1D95" fill-opacity="0.6"/>
+        <text x="8" y="14" fill="#C084FC" class="font-mono tag-badge">DEVSECOPS</text>
+        <text x="300" y="14" fill="#10B981" class="font-mono" font-size="10.5">● Air-Gapped</text>
+      </g>
+      <text x="16" y="58" class="font-sans card-title">Vantese Custos</text>
+      <text x="16" y="76" class="font-sans card-desc">Cryptographic Licensing &amp; Anti-Tamper Security Guard.</text>
+      <text x="16" y="92" class="font-sans card-desc">HMAC-SHA256 signature, machine-binding, Ghost Protocol.</text>
+      <g transform="translate(16, 120)">
+        <text x="0" y="0" fill="#C084FC" class="font-mono" font-size="10.5">Cryptography • Zod • Gitleaks</text>
+      </g>
+      <!-- Circular Gauge Ring (100%) -->
+      <g transform="translate(348, 70)">
+        <circle cx="20" cy="20" r="18" fill="none" stroke="#1E293B" stroke-width="3"/>
+        <circle cx="20" cy="20" r="18" fill="none" stroke="url(#gauge-violet)" stroke-width="3" stroke-dasharray="113" stroke-dashoffset="0" stroke-linecap="round" transform="rotate(-90 20 20)"/>
+        <text x="20" y="24" fill="#F8FAFC" class="font-mono" font-size="9" font-weight="700" text-anchor="middle">0-Leak</text>
+      </g>
+    </g>
+
+    <!-- Card 4: Prostasia LabApp -->
+    <g transform="translate(424, 156)">
+      <rect width="404" height="142" rx="12" fill="#090E1A" stroke="#1E293B" stroke-width="1"/>
+      <g transform="translate(16, 16)">
+        <rect width="80" height="20" rx="6" fill="#134E4A" fill-opacity="0.6"/>
+        <text x="8" y="14" fill="#2DD4BF" class="font-mono tag-badge">LIS &amp; LABS</text>
+        <text x="300" y="14" fill="#10B981" class="font-mono" font-size="10.5">● Connected</text>
+      </g>
+      <text x="16" y="58" class="font-sans card-title">Prostasia LabApp</text>
+      <text x="16" y="76" class="font-sans card-desc">Laboratory Information System &amp; Analyzer Networking.</text>
+      <text x="16" y="92" class="font-sans card-desc">RS232/TCP HL7 instrument telemetry &amp; patient worklists.</text>
+      <g transform="translate(16, 120)">
+        <text x="0" y="0" fill="#2DD4BF" class="font-mono" font-size="10.5">HL7 • Serial/TCP • Python</text>
+      </g>
+      <!-- Circular Gauge Ring (96%) -->
+      <g transform="translate(348, 70)">
+        <circle cx="20" cy="20" r="18" fill="none" stroke="#1E293B" stroke-width="3"/>
+        <circle cx="20" cy="20" r="18" fill="none" stroke="url(#gauge-cyan)" stroke-width="3" stroke-dasharray="113" stroke-dashoffset="8" stroke-linecap="round" transform="rotate(-90 20 20)"/>
+        <text x="20" y="24" fill="#F8FAFC" class="font-mono" font-size="9.5" font-weight="700" text-anchor="middle">96%</text>
+      </g>
+    </g>
+
+    <!-- ================= ROW 3 ================= -->
+
+    <!-- Card 5: Borobudur ContentPulse -->
+    <g transform="translate(0, 312)">
+      <rect width="404" height="142" rx="12" fill="#090E1A" stroke="#1E293B" stroke-width="1"/>
+      <g transform="translate(16, 16)">
+        <rect width="90" height="20" rx="6" fill="#78350F" fill-opacity="0.6"/>
+        <text x="8" y="14" fill="#FBBF24" class="font-mono tag-badge">AUTOMATION</text>
+        <text x="300" y="14" fill="#10B981" class="font-mono" font-size="10.5">● Scheduled</text>
+      </g>
+      <text x="16" y="58" class="font-sans card-title">Borobudur ContentPulse</text>
+      <text x="16" y="76" class="font-sans card-desc">Media Automation &amp; Editorial Lifecycle Pipeline.</text>
+      <text x="16" y="92" class="font-sans card-desc">Multi-platform social distribution &amp; asset rendering.</text>
+      <g transform="translate(16, 120)">
+        <text x="0" y="0" fill="#FBBF24" class="font-mono" font-size="10.5">Automated • Python • FFmpeg</text>
+      </g>
+      <!-- Circular Gauge Ring (100%) -->
+      <g transform="translate(348, 70)">
+        <circle cx="20" cy="20" r="18" fill="none" stroke="#1E293B" stroke-width="3"/>
+        <circle cx="20" cy="20" r="18" fill="none" stroke="url(#gauge-amber)" stroke-width="3" stroke-dasharray="113" stroke-dashoffset="0" stroke-linecap="round" transform="rotate(-90 20 20)"/>
+        <text x="20" y="24" fill="#F8FAFC" class="font-mono" font-size="9" font-weight="700" text-anchor="middle">AUTO</text>
+      </g>
+    </g>
+
+    <!-- Card 6: Enterprise Retail & Client Suite -->
+    <g transform="translate(424, 312)">
+      <rect width="404" height="142" rx="12" fill="#090E1A" stroke="#1E293B" stroke-width="1"/>
+      <g transform="translate(16, 16)">
+        <rect width="90" height="20" rx="6" fill="#1E3A8A" fill-opacity="0.6"/>
+        <text x="8" y="14" fill="#93C5FD" class="font-mono tag-badge">RETAIL &amp; POS</text>
+        <text x="300" y="14" fill="#10B981" class="font-mono" font-size="10.5">● Live Deployed</text>
+      </g>
+      <text x="16" y="58" class="font-sans card-title">Sedap Kuring, Toko Nadia &amp; Bromo</text>
+      <text x="16" y="76" class="font-sans card-desc">Enterprise POS, Retail Inventory &amp; Treasury Suite.</text>
+      <text x="16" y="92" class="font-sans card-desc">Including LED Foundation non-profit transparent ledger.</text>
+      <g transform="translate(16, 120)">
+        <text x="0" y="0" fill="#93C5FD" class="font-mono" font-size="10.5">Multi-Tenant • POS • Cloudflare</text>
+      </g>
+      <!-- Circular Gauge Ring (100%) -->
+      <g transform="translate(348, 70)">
+        <circle cx="20" cy="20" r="18" fill="none" stroke="#1E293B" stroke-width="3"/>
+        <circle cx="20" cy="20" r="18" fill="none" stroke="url(#gauge-cyan)" stroke-width="3" stroke-dasharray="113" stroke-dashoffset="0" stroke-linecap="round" transform="rotate(-90 20 20)"/>
+        <text x="20" y="24" fill="#F8FAFC" class="font-mono" font-size="9" font-weight="700" text-anchor="middle">LIVE</text>
+      </g>
+    </g>
+  </g>
+</svg>

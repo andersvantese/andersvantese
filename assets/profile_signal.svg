@@ -1,0 +1,115 @@
+<svg width="880" height="195" viewBox="0 0 880 195" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="signal-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#080C14"/>
+      <stop offset="100%" stop-color="#0C1322"/>
+    </linearGradient>
+    <linearGradient id="signal-border" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1E293B"/>
+      <stop offset="50%" stop-color="#00D2FF" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#1E293B"/>
+    </linearGradient>
+
+    <!-- Sparkline Gradients -->
+    <linearGradient id="line-green" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#10B981" stop-opacity="0.2"/>
+      <stop offset="100%" stop-color="#10B981"/>
+    </linearGradient>
+    <linearGradient id="line-purple" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#8B5CF6" stop-opacity="0.2"/>
+      <stop offset="100%" stop-color="#A855F7"/>
+    </linearGradient>
+    <linearGradient id="line-cyan" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00D2FF" stop-opacity="0.2"/>
+      <stop offset="100%" stop-color="#38BDF8"/>
+    </linearGradient>
+    <linearGradient id="line-amber" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#F59E0B" stop-opacity="0.2"/>
+      <stop offset="100%" stop-color="#FBBF24"/>
+    </linearGradient>
+
+    <filter id="glow-line" x="-10%" y="-10%" width="120%" height="120%">
+      <feGaussianBlur stdDeviation="2" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+  </defs>
+
+  <style>
+    .font-mono { font-family: 'JetBrains Mono', 'Fira Code', monospace; }
+    .font-sans { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; }
+  </style>
+
+  <!-- Container Box -->
+  <rect x="2" y="2" width="876" height="191" rx="16" fill="url(#signal-bg)" stroke="url(#signal-border)" stroke-width="1.2"/>
+
+  <!-- Card Header Row -->
+  <g transform="translate(24, 20)">
+    <text x="0" y="16" fill="#F8FAFC" class="font-sans" font-size="16" font-weight="700">Profile Signal</text>
+    <text x="116" y="16" fill="#64748B" class="font-sans" font-size="12">Ecosystem Telemetry &amp; Verification</text>
+
+    <!-- Shell Status Pill -->
+    <g transform="translate(640, 2)">
+      <rect width="180" height="20" rx="10" fill="#0E1726" stroke="#1E293B" stroke-width="1"/>
+      <circle cx="10" cy="10" r="3" fill="#10B981"/>
+      <text x="20" y="14" fill="#38BDF8" class="font-mono" font-size="10.5">&gt; telemetry --verified</text>
+    </g>
+  </g>
+
+  <!-- 4 Metric Bento Cards -->
+  <g transform="translate(20, 52)">
+    <!-- Box 1: Systems Engineered -->
+    <g transform="translate(0, 0)">
+      <rect width="200" height="122" rx="12" fill="#0A111E" stroke="#1E293B" stroke-width="1"/>
+      <!-- Icon & Label -->
+      <g transform="translate(14, 14)">
+        <circle cx="10" cy="10" r="10" fill="#064E3B" fill-opacity="0.5"/>
+        <text x="7" y="14" fill="#10B981" font-size="11">⚡</text>
+        <text x="26" y="14" fill="#94A3B8" class="font-sans" font-size="11.5" font-weight="500">Systems Built</text>
+      </g>
+      <!-- Big Number -->
+      <text x="14" y="68" fill="#F8FAFC" class="font-sans" font-size="28" font-weight="800">10+</text>
+      <text x="14" y="86" fill="#64748B" class="font-sans" font-size="10.5">Proprietary Deployments</text>
+      <!-- Neon Sparkline -->
+      <path d="M14 104 C40 102, 60 110, 80 96 C100 85, 120 104, 150 92 L186 98" fill="none" stroke="url(#line-green)" stroke-width="2.5" stroke-linecap="round" filter="url(#glow-line)"/>
+    </g>
+
+    <!-- Box 2: Sectors -->
+    <g transform="translate(212, 0)">
+      <rect width="200" height="122" rx="12" fill="#0A111E" stroke="#1E293B" stroke-width="1"/>
+      <g transform="translate(14, 14)">
+        <circle cx="10" cy="10" r="10" fill="#4C1D95" fill-opacity="0.5"/>
+        <text x="6" y="14" fill="#A855F7" font-size="11">🌐</text>
+        <text x="26" y="14" fill="#94A3B8" class="font-sans" font-size="11.5" font-weight="500">Active Sectors</text>
+      </g>
+      <text x="14" y="68" fill="#F8FAFC" class="font-sans" font-size="28" font-weight="800">5</text>
+      <text x="14" y="86" fill="#64748B" class="font-sans" font-size="10.5">Fintech, Health, Security, POS</text>
+      <path d="M14 104 C40 108, 65 92, 100 102 C130 112, 155 90, 186 88" fill="none" stroke="url(#line-purple)" stroke-width="2.5" stroke-linecap="round" filter="url(#glow-line)"/>
+    </g>
+
+    <!-- Box 3: Clean-Room Quality -->
+    <g transform="translate(424, 0)">
+      <rect width="200" height="122" rx="12" fill="#0A111E" stroke="#1E293B" stroke-width="1"/>
+      <g transform="translate(14, 14)">
+        <circle cx="10" cy="10" r="10" fill="#0C4A6E" fill-opacity="0.5"/>
+        <text x="6" y="14" fill="#00D2FF" font-size="11">💎</text>
+        <text x="26" y="14" fill="#94A3B8" class="font-sans" font-size="11.5" font-weight="500">Clean-Room Std</text>
+      </g>
+      <text x="14" y="68" fill="#F8FAFC" class="font-sans" font-size="28" font-weight="800">100%</text>
+      <text x="14" y="86" fill="#64748B" class="font-sans" font-size="10.5">Zero-Contamination Build</text>
+      <path d="M14 100 C45 90, 75 106, 110 92 C140 82, 160 98, 186 90" fill="none" stroke="url(#line-cyan)" stroke-width="2.5" stroke-linecap="round" filter="url(#glow-line)"/>
+    </g>
+
+    <!-- Box 4: Security Standard -->
+    <g transform="translate(636, 0)">
+      <rect width="200" height="122" rx="12" fill="#0A111E" stroke="#1E293B" stroke-width="1"/>
+      <g transform="translate(14, 14)">
+        <circle cx="10" cy="10" r="10" fill="#78350F" fill-opacity="0.5"/>
+        <text x="6" y="14" fill="#F59E0B" font-size="11">🛡️</text>
+        <text x="26" y="14" fill="#94A3B8" class="font-sans" font-size="11.5" font-weight="500">Ghost Protocol</text>
+      </g>
+      <text x="14" y="68" fill="#F8FAFC" class="font-sans" font-size="28" font-weight="800">0 Leak</text>
+      <text x="14" y="86" fill="#64748B" class="font-sans" font-size="10.5">Strict Cryptographic Hygiene</text>
+      <path d="M14 102 C45 105, 80 95, 120 102 C150 108, 170 94, 186 92" fill="none" stroke="url(#line-amber)" stroke-width="2.5" stroke-linecap="round" filter="url(#glow-line)"/>
+    </g>
+  </g>
+</svg>

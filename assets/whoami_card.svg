@@ -1,0 +1,73 @@
+<svg width="880" height="230" viewBox="0 0 880 230" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="card-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#080C14"/>
+      <stop offset="100%" stop-color="#0C1322"/>
+    </linearGradient>
+    <linearGradient id="card-border" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#1E293B"/>
+      <stop offset="50%" stop-color="#00D2FF" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#8B5CF6" stop-opacity="0.4"/>
+    </linearGradient>
+  </defs>
+
+  <style>
+    .mono { font-family: 'JetBrains Mono', 'Fira Code', ui-monospace, Menlo, Consolas, monospace; font-size: 13.5px; }
+    .kw { fill: #C084FC; font-weight: 600; }
+    .ident { fill: #38BDF8; font-weight: 600; }
+    .prop { fill: #93C5FD; }
+    .str { fill: #34D399; }
+    .punct { fill: #64748B; }
+    .comm { fill: #475569; font-style: italic; }
+  </style>
+
+  <!-- Container -->
+  <rect x="2" y="2" width="876" height="226" rx="16" fill="url(#card-bg)" stroke="url(#card-border)" stroke-width="1.2"/>
+
+  <!-- Window Header Bar -->
+  <path d="M2 18 C2 9.16344 9.16344 2 18 2 L862 2 C870.837 2 878 9.16344 878 18 L878 38 L2 38 Z" fill="#0E1626"/>
+  <line x1="2" y1="38" x2="878" y2="38" stroke="#1E293B" stroke-width="1"/>
+
+  <!-- Window Controls -->
+  <circle cx="22" cy="20" r="5" fill="#EF4444" fill-opacity="0.8"/>
+  <circle cx="38" cy="20" r="5" fill="#F59E0B" fill-opacity="0.8"/>
+  <circle cx="54" cy="20" r="5" fill="#10B981" fill-opacity="0.8"/>
+
+  <!-- Window Title -->
+  <text x="440" y="24" fill="#94A3B8" font-family="-apple-system, sans-serif" font-size="12" font-weight="500" text-anchor="middle">⚡ whoami ~ anders.vantese (SystemsArchitect)</text>
+
+  <!-- Code Block -->
+  <g transform="translate(32, 68)" class="mono">
+    <!-- Line 1 -->
+    <text x="0" y="0">
+      <tspan class="kw">const</tspan> <tspan class="ident">vantese</tspan><tspan class="punct">: </tspan><tspan class="ident">SystemsArchitect</tspan> <tspan class="punct">= {</tspan>
+    </text>
+
+    <!-- Line 2 -->
+    <text x="24" y="26">
+      <tspan class="prop">identity</tspan><tspan class="punct">: </tspan><tspan class="str">"Anders Vantese"</tspan><tspan class="punct">,</tspan>
+      <tspan x="420" class="comm">// Founder &amp; Lead Systems Engineer</tspan>
+    </text>
+
+    <!-- Line 3 -->
+    <text x="24" y="52">
+      <tspan class="prop">creed</tspan><tspan class="punct">: </tspan><tspan class="str">"// build • test • learn • ship"</tspan><tspan class="punct">,</tspan>
+      <tspan x="420" class="comm">// Zero Compromise on Craftsmanship</tspan>
+    </text>
+
+    <!-- Line 4 -->
+    <text x="24" y="78">
+      <tspan class="prop">engineering</tspan><tspan class="punct">: [</tspan><tspan class="str">"Clean-Room"</tspan><tspan class="punct">, </tspan><tspan class="str">"Ghost Protocol"</tspan><tspan class="punct">, </tspan><tspan class="str">"High-Precision"</tspan><tspan class="punct">],</tspan>
+    </text>
+
+    <!-- Line 5 -->
+    <text x="24" y="104">
+      <tspan class="prop">domains</tspan><tspan class="punct">: [</tspan><tspan class="str">"Fintech/Quant"</tspan><tspan class="punct">, </tspan><tspan class="str">"HealthTech (EMR)"</tspan><tspan class="punct">, </tspan><tspan class="str">"DevSecOps"</tspan><tspan class="punct">, </tspan><tspan class="str">"Retail Suite"</tspan><tspan class="punct">],</tspan>
+    </text>
+
+    <!-- Line 6 -->
+    <text x="0" y="130">
+      <tspan class="punct">};</tspan>
+    </text>
+  </g>
+</svg>

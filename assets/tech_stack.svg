@@ -1,0 +1,120 @@
+<svg width="880" height="250" viewBox="0 0 880 250" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="stack-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#080C14"/>
+      <stop offset="100%" stop-color="#0C1322"/>
+    </linearGradient>
+    <linearGradient id="stack-border" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#1E293B"/>
+      <stop offset="50%" stop-color="#00D2FF" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#1E293B"/>
+    </linearGradient>
+  </defs>
+
+  <style>
+    .font-mono { font-family: 'JetBrains Mono', 'Fira Code', monospace; }
+    .font-sans { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; }
+    .cat-title { font-size: 11.5px; font-weight: 700; fill: #64748B; letter-spacing: 1px; }
+    .pill-text { font-size: 11px; font-weight: 600; fill: #E2E8F0; }
+  </style>
+
+  <!-- Container Box -->
+  <rect x="2" y="2" width="876" height="246" rx="16" fill="url(#stack-bg)" stroke="url(#stack-border)" stroke-width="1.2"/>
+
+  <!-- Header Bar -->
+  <g transform="translate(24, 20)">
+    <text x="0" y="16" fill="#F8FAFC" class="font-sans" font-size="16" font-weight="700">Engineering Stack &amp; Toolkit</text>
+    <text x="230" y="16" fill="#64748B" class="font-sans" font-size="12">Repository-Weighted Technologies</text>
+
+    <!-- Shell Prompt Pill -->
+    <g transform="translate(685, 2)">
+      <rect width="135" height="20" rx="10" fill="#0E1726" stroke="#1E293B" stroke-width="1"/>
+      <text x="12" y="14" fill="#38BDF8" class="font-mono" font-size="11">&gt; stack.scan_</text>
+    </g>
+  </g>
+
+  <!-- Categorized Glassmorphic Badges -->
+  <g transform="translate(24, 58)">
+    <!-- Category 1: Systems & Core -->
+    <g transform="translate(0, 0)">
+      <text x="0" y="14" class="font-mono cat-title">CORE &amp; RUNTIMES</text>
+      <g transform="translate(160, 0)">
+        <!-- Node.js -->
+        <rect x="0" y="0" width="84" height="24" rx="6" fill="#0A1E14" stroke="#10B981" stroke-width="0.8"/>
+        <text x="10" y="16" class="font-mono pill-text" fill="#34D399">Node.js</text>
+        <!-- Python -->
+        <rect x="94" y="0" width="80" height="24" rx="6" fill="#0A1828" stroke="#38BDF8" stroke-width="0.8"/>
+        <text x="104" y="16" class="font-mono pill-text" fill="#38BDF8">Python</text>
+        <!-- TypeScript -->
+        <rect x="184" y="0" width="102" height="24" rx="6" fill="#0C1D38" stroke="#2563EB" stroke-width="0.8"/>
+        <text x="194" y="16" class="font-mono pill-text" fill="#60A5FA">TypeScript</text>
+        <!-- Vanilla JS -->
+        <rect x="296" y="0" width="104" height="24" rx="6" fill="#241B08" stroke="#F59E0B" stroke-width="0.8"/>
+        <text x="306" y="16" class="font-mono pill-text" fill="#FBBF24">JavaScript</text>
+        <!-- Linux / Bash -->
+        <rect x="410" y="0" width="76" height="24" rx="6" fill="#1A1824" stroke="#94A3B8" stroke-width="0.8"/>
+        <text x="420" y="16" class="font-mono pill-text" fill="#E2E8F0">Linux</text>
+      </g>
+    </g>
+
+    <!-- Category 2: Frontend & UI Craft -->
+    <g transform="translate(0, 42)">
+      <text x="0" y="14" class="font-mono cat-title">FRONTEND &amp; UI</text>
+      <g transform="translate(160, 0)">
+        <!-- React -->
+        <rect x="0" y="0" width="72" height="24" rx="6" fill="#061D2B" stroke="#00D2FF" stroke-width="0.8"/>
+        <text x="10" y="16" class="font-mono pill-text" fill="#38BDF8">React</text>
+        <!-- Vite -->
+        <rect x="82" y="0" width="64" height="24" rx="6" fill="#1C1030" stroke="#8B5CF6" stroke-width="0.8"/>
+        <text x="92" y="16" class="font-mono pill-text" fill="#C084FC">Vite</text>
+        <!-- Vanilla CSS / Canvas -->
+        <rect x="156" y="0" width="106" height="24" rx="6" fill="#0A1828" stroke="#0284C7" stroke-width="0.8"/>
+        <text x="166" y="16" class="font-mono pill-text" fill="#7DD3FC">HTML5 Canvas</text>
+        <!-- Glassmorphism & Micro-animations -->
+        <rect x="272" y="0" width="96" height="24" rx="6" fill="#151C2C" stroke="#475569" stroke-width="0.8"/>
+        <text x="282" y="16" class="font-mono pill-text" fill="#CBD5E1">Modern CSS3</text>
+        <!-- WCAG AA Accessibility -->
+        <rect x="378" y="0" width="94" height="24" rx="6" fill="#06221C" stroke="#059669" stroke-width="0.8"/>
+        <text x="388" y="16" class="font-mono pill-text" fill="#10B981">WCAG AA</text>
+      </g>
+    </g>
+
+    <!-- Category 3: Cloud & Persistence -->
+    <g transform="translate(0, 84)">
+      <text x="0" y="14" class="font-mono cat-title">CLOUD &amp; DATA</text>
+      <g transform="translate(160, 0)">
+        <!-- Cloudflare Pages -->
+        <rect x="0" y="0" width="134" height="24" rx="6" fill="#24130A" stroke="#F97316" stroke-width="0.8"/>
+        <text x="10" y="16" class="font-mono pill-text" fill="#FB923C">Cloudflare Pages</text>
+        <!-- Firebase / Firestore -->
+        <rect x="144" y="0" width="96" height="24" rx="6" fill="#241908" stroke="#F59E0B" stroke-width="0.8"/>
+        <text x="154" y="16" class="font-mono pill-text" fill="#FBBF24">Firestore</text>
+        <!-- PostgreSQL / SQLite -->
+        <rect x="250" y="0" width="82" height="24" rx="6" fill="#0B1A2C" stroke="#3B82F6" stroke-width="0.8"/>
+        <text x="260" y="16" class="font-mono pill-text" fill="#60A5FA">Postgres</text>
+        <!-- Docker -->
+        <rect x="342" y="0" width="80" height="24" rx="6" fill="#0A1A2E" stroke="#0284C7" stroke-width="0.8"/>
+        <text x="352" y="16" class="font-mono pill-text" fill="#38BDF8">Docker</text>
+      </g>
+    </g>
+
+    <!-- Category 4: Security & Quality -->
+    <g transform="translate(0, 126)">
+      <text x="0" y="14" class="font-mono cat-title">DEVSECOPS &amp; QA</text>
+      <g transform="translate(160, 0)">
+        <!-- Playwright -->
+        <rect x="0" y="0" width="96" height="24" rx="6" fill="#1A1828" stroke="#10B981" stroke-width="0.8"/>
+        <text x="10" y="16" class="font-mono pill-text" fill="#34D399">Playwright</text>
+        <!-- HMAC-SHA256 -->
+        <rect x="106" y="0" width="118" height="24" rx="6" fill="#1D102E" stroke="#8B5CF6" stroke-width="0.8"/>
+        <text x="116" y="16" class="font-mono pill-text" fill="#C084FC">HMAC-SHA256</text>
+        <!-- Zod Validation -->
+        <rect x="234" y="0" width="70" height="24" rx="6" fill="#0A1828" stroke="#38BDF8" stroke-width="0.8"/>
+        <text x="244" y="16" class="font-mono pill-text" fill="#38BDF8">Zod</text>
+        <!-- Ghost Protocol -->
+        <rect x="314" y="0" width="124" height="24" rx="6" fill="#181524" stroke="#64748B" stroke-width="0.8"/>
+        <text x="324" y="16" class="font-mono pill-text" fill="#E2E8F0">Ghost Protocol</text>
+      </g>
+    </g>
+  </g>
+</svg>
